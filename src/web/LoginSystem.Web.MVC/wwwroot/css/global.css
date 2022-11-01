@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;700;900&display=swap');
+
+:root {
+    --maincolor: #da8915;
+    --bluecolor: #39c4fc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.icon-home {
+    color: var(--maincolor);
+    position: fixed;
+    top: 25px;
+    left: 100px;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.icon-home span {
+    font-size: 2em;
+}
+
+.container {
+    padding: 1px;
+    border-radius: 8px 0px 8px 0px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../img/pexels-rovenimagescom-949587.jpg);
+    background-size: cover;
+}
+
+.box-home {
+    position: relative;
+    background: #1c1c1c;
+    border-radius: 8px 0px 0px 0px;
+    overflow: hidden;
+    padding: 20px 60px;
+}
+
+    .box-home h1 {
+        color: var(--maincolor);
+    }
+
+.botoes {
+    position: relative;
+    background: var(--maincolor);
+    border-radius: 0px 0px 8px 0px;
+    overflow: hidden;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .botoes a {
+        background-color: #1c1c1c;
+        color: var(--maincolor);
+        padding: 10px 20px;
+        border-radius: 3px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+        transition: box-shadow linear 0.25s;
+    }
+
+        .botoes a:hover {
+            box-shadow: 1px 1px 10px var(--bluecolor);
+        }
