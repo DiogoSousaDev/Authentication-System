@@ -37,12 +37,18 @@ namespace LoginSystem.Web.MVC.Services
             var content = ObterConteudo(utilizadorRegisto);
             var response = await _httpClient.PostAsync("/api/identidade/nova-conta", content);
 
-            var result = await response.Content.ReadAsStringAsync();
-
             var options = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true,
             };
+
+            if (!TratarErrosResponse(response))
+            {
+                return new UtilizadorRespostaLogin
+                {
+                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), options)
+                };
+            }
 
             return JsonSerializer.Deserialize<UtilizadorRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
         }

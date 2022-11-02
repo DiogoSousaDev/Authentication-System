@@ -9,7 +9,7 @@ using Claim = System.Security.Claims.Claim;
 
 namespace LoginSystem.Web.MVC.Controllers
 {
-    public class AutenticacaoController : Controller
+    public class AutenticacaoController : MainController
     {
         private readonly IAutenticacaoService _autenticacaoService;
 
@@ -31,13 +31,8 @@ namespace LoginSystem.Web.MVC.Controllers
         public async Task<IActionResult> Registo(UtilizadorRegisto utilizadorRegisto)
         {
             if (!ModelState.IsValid) return View(utilizadorRegisto);
-
-            // API - Registo
             var resposta = await _autenticacaoService.Registo(utilizadorRegisto);
-
-            //if (false) return View(utilizadorRegisto);
-
-            // Realiza Login
+            if (ResponsePossuiErros(resposta.ResponseResult)) return View(utilizadorRegisto);
             await RealizarLogin(resposta);
 
             return RedirectToAction("Index", "Home");
@@ -45,26 +40,28 @@ namespace LoginSystem.Web.MVC.Controllers
 
         [HttpGet]
         [Route("login")]
-        public IActionResult Login()
+        public IActionResult Login(string returnUrl = null)
         {
+            ViewData["ReturnUrl"] = returnUrl;
             return View();
         }
 
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login(UtilizadorLogin utilizadorLogin)
+        public async Task<IActionResult> Login(UtilizadorLogin utilizadorLogin, string returnUrl = null)
         {
+            ViewData["ReturnUrl"] = returnUrl;
             if (!ModelState.IsValid) return View(utilizadorLogin);
 
-            // API - Registo
             var resposta = await _autenticacaoService.Login(utilizadorLogin);
 
-            // if (false) return View(utilizadorLogin);
+            if (ResponsePossuiErros(resposta.ResponseResult)) return View(utilizadorLogin);
 
-            // Realiza Login
             await RealizarLogin(resposta);
 
-            return RedirectToAction("Index", "Home");
+            if (string.IsNullOrEmpty(returnUrl)) return RedirectToAction("Index", "Home");
+
+            return LocalRedirect(returnUrl);
         }
 
         [HttpGet]

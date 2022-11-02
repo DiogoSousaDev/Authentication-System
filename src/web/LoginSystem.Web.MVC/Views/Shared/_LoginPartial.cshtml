@@ -1,0 +1,30 @@
+﻿@using LoginSystem.Web.MVC.Extensions
+@inject IUser AppUser
+
+
+<div id="info-user">
+
+    <ul>
+        @if (AppUser.EstaAutenticado())
+        {
+            <li>
+                <a class="nome-utilizador nav-link text-dark"><span>Utilizador: </span> @AppUser.ObterUserEmail()</a>
+            </li>
+            <li>
+                <div class="btn-container">
+                   <a class="btn-logout" asp-controller="Autenticacao" asp-action="Logout">Sair</a>
+                </div>
+            </li>
+        }
+       @* else
+        {
+            <li>
+                <a class="btn btn-success" asp-controller="Identidade" asp-action="Registo" title="Manage">Nova Conta</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-primary" asp-controller="Identidade" asp-action="Login" title="Manage">Login</a>
+            </li>
+        }*@
+    </ul>
+
+</div>

@@ -78,3 +78,52 @@ body {
         .botoes a:hover {
             box-shadow: 1px 1px 10px var(--bluecolor);
         }
+
+
+
+
+
+
+.box-erro {
+    position: fixed;
+    top: 4px;
+    left: 1;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: var(--maincolor);
+    border-radius: 8px;
+    z-index: 11;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    transition: all linear 0.5s;
+}
+
+    .close-btn:hover {
+        font-weight: bolder;
+    }
+
+#msgRetorno {
+    color: #fa0000bd;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+li {
+    list-style: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.box-erro-server {
+    text-align: center;
+    padding: 40px 40px;
+    background-color: var(--maincolor);
+    border-radius: 8px;
+}

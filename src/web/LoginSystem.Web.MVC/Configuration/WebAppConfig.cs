@@ -31,6 +31,8 @@ namespace LoginSystem.Web.MVC.Configuration
 
             app.UseIdentityConfiguration();
 
+            app.UseMiddleware<ExceptionMiddleware>();
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

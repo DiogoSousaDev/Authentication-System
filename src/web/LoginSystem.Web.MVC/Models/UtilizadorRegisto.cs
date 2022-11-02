@@ -32,6 +32,7 @@ namespace LoginSystem.Web.MVC.Models
         public string AccessToken { get; set; }
         public int ExpiresIn { get; set; }
         public Utilizadortoken UtilizadorToken { get; set; }
+        public ResponseResult ResponseResult { get; set; }
     }
 
     public class Utilizadortoken
