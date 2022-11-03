@@ -30,6 +30,7 @@ namespace LoginSystem.Identidade.API.Controllers
         [HttpPost("nova-conta")]
         public async Task<IActionResult> Registar(UtilizadorRegisto utilizadorRegisto)
         {
+
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var user = new IdentityUser

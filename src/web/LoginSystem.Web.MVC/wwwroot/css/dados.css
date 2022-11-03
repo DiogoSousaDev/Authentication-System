@@ -1,0 +1,53 @@
+:root {
+  --maincolor: #da8915;
+  --bluecolor: #39c4fc;
+}
+
+
+#info-user {
+  position: fixed;
+  top: 10px;
+  right: 0;
+  background-color: #1c1c1c;
+  padding: 10px 20px;
+  border-radius: 10px 0px 0px 10px;
+
+}
+
+.nome-utilizador {
+  color: white;
+}
+
+#info-user li {
+  padding: 5px;
+}
+
+#info-user span {
+  font-weight: bold;
+  color: var(--maincolor);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-logout {
+  padding: 6px 15px;
+  border: 1px solid var(--maincolor);
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 2px;
+  transition: all linear 0.25s;
+}
+
+.btn-logout:hover {
+  background-color: var(--maincolor);
+}  
+
+.btn-logout:active {
+  opacity: 0.4;
+}

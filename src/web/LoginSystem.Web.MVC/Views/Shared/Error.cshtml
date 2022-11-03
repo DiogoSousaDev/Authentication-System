@@ -1,0 +1,24 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Ocorreu um erro";
+}
+
+<div class="icon-home">
+    <a asp-action="Index" asp-controller="Home"><span class="material-symbols-rounded">house</span></a>
+</div>
+
+@{
+    if (Model == null)
+    {
+        <div class="box-erro-server">
+            <h2>Ocorreu um erro, mas não se preocupe. A nossa equipa será avisada e iremos corrigir brevemente!</h2>
+        </div>
+    }
+    else
+    {
+        ViewData["Title"] = Model.Titulo;
+        <div class="box-erro-server">
+            <h2>@Html.Raw(Model.Mensagem)</h2>
+        </div>
+    }
+}

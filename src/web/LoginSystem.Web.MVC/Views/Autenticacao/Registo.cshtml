@@ -1,0 +1,47 @@
+﻿@model LoginSystem.Web.MVC.Models.UtilizadorRegisto
+
+@{
+    ViewData["Title"] = "Login System";
+}
+
+<div class="icon-home">
+    <a href="index.html"><span class="material-symbols-rounded">house</span></a>
+</div>
+
+<vc:summary></vc:summary>
+
+<div class="box-registo">
+    <form method="post" class="form">
+        <h2>Registo</h2>
+
+      @*  <div class="inputBox">
+            <input type="text">
+            <span>Nome</span>
+            <i></i>
+        </div>*@
+
+        <div class="inputBox">
+            <input type="text" required="required" asp-for="Email">
+            <span>E-mail</span>
+            <i></i>
+        </div>
+
+        <div class="inputBox">
+            <input type="password" required="required" asp-for="Password">
+            <span>Password</span>
+            <i></i>
+        </div>
+
+        <div class="inputBox">
+            <input type="password" required="required" asp-for="PasswordConfirmacao">
+            <span>Confirmação Password</span>
+            <i></i>
+        </div>
+
+        <div class="btn">
+            <input class="btn" type="submit" value="Registar">
+        </div>
+
+
+    </form>
+</div>
