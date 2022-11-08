@@ -1,0 +1,12 @@
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\bin\Debug\net6.0\LoginSystem.Core.deps.json
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\bin\Debug\net6.0\LoginSystem.Core.dll
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\bin\Debug\net6.0\LoginSystem.Core.pdb
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\obj\Debug\net6.0\LoginSystem.Core.csproj.AssemblyReference.cache
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\obj\Debug\net6.0\LoginSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\obj\Debug\net6.0\LoginSystem.Core.AssemblyInfoInputs.cache
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\obj\Debug\net6.0\LoginSystem.Core.AssemblyInfo.cs
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\obj\Debug\net6.0\LoginSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\obj\Debug\net6.0\LoginSystem.Core.dll
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\obj\Debug\net6.0\refint\LoginSystem.Core.dll
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\obj\Debug\net6.0\LoginSystem.Core.pdb
+C:\Users\diogo\Desktop\Labs\Git Projects\LoginSystem\Authentication-System\src\building blocks\LoginSystem.Core\obj\Debug\net6.0\ref\LoginSystem.Core.dll

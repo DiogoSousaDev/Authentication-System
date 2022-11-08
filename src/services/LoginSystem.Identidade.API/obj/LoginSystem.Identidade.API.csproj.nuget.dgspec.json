@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj": {}
+    "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj": {
+    "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
+        "projectUniqueName": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
         "projectName": "LoginSystem.Identidade.API",
-        "projectPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
+        "projectPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
         "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\services\\LoginSystem.Identidade.API\\obj\\",
+        "outputPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

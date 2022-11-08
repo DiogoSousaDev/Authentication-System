@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H0xXOdGbTMH5Dd5VtLt1JfQ+iwpULlyXhXww2mnv6rn6Lrr89PNblLeLPsdam/AIU2LoWnVMN9zLKllyLj2hRw==",
+  "dgSpecHash": "CvD9koyZ/N0uIY3jcBt3HHT/Mb7iI26wegmk+9aJ4Srk5JkltYr6GwMy8/pTbt4Zac87PVFGHSCkO3SmQUAv9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
+  "projectFilePath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diogo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\diogo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.10\\microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",

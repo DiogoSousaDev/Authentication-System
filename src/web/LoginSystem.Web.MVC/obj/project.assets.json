@@ -421,11 +421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\web\\LoginSystem.Web.MVC\\LoginSystem.Web.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\web\\LoginSystem.Web.MVC\\LoginSystem.Web.MVC.csproj",
       "projectName": "LoginSystem.Web.MVC",
-      "projectPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\web\\LoginSystem.Web.MVC\\LoginSystem.Web.MVC.csproj",
+      "projectPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\web\\LoginSystem.Web.MVC\\LoginSystem.Web.MVC.csproj",
       "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\web\\LoginSystem.Web.MVC\\obj\\",
+      "outputPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\web\\LoginSystem.Web.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

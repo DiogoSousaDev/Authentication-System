@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "vVcR8nlU0xvE/ZGanPtQpgFbKuW8ArCkIuGYSFO6YApkKj31z3pmlVOmD5X2gMWHIedig6yqRbmSLSja4sxGiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\building blocks\\LoginSystem.Core\\LoginSystem.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diogo\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\diogo\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\diogo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\diogo\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\diogo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\diogo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jxeW3ehEo+8SDaXuWHjNX+FzlnQJs0p9ZzQ8E+zU9dcMklPRubPjzwH57Agho9OnPASVabvWo2fU4NMwhrJQ3A==",
+  "dgSpecHash": "S+AISUq9YKIgh6aprBgZ5L07tJ7yEqQx0FM6qehBWaBo7hwmKrhOFbnPRBIFavsJJ9ewm8HztRI5DcHyaZsjKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\src\\web\\LoginSystem.Web.MVC\\LoginSystem.Web.MVC.csproj",
+  "projectFilePath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\web\\LoginSystem.Web.MVC\\LoginSystem.Web.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diogo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.10\\microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
     "C:\\Users\\diogo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
