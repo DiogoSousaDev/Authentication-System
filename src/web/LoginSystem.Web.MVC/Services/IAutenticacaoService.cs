@@ -27,9 +27,21 @@ namespace LoginSystem.Web.MVC.Services
             var content = ObterConteudo(utilizadorLogin);
 
             var response = await _httpClient.PostAsync("/api/identidade/autenticar", content);
-            var result = await response.Content.ReadAsStringAsync();
 
-            throw new NotImplementedException();
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+
+            if (!TratarErrosResponse(response))
+            {
+                return new UtilizadorRespostaLogin
+                {
+                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), options)
+                };
+            }
+
+            return JsonSerializer.Deserialize<UtilizadorRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
         }
 
         public async Task<UtilizadorRespostaLogin> Registo(UtilizadorRegisto utilizadorRegisto)

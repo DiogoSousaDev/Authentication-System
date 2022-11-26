@@ -5,6 +5,7 @@ using LoginSystem.Utilizador.API.Application.Events;
 using LoginSystem.Utilizador.API.Data;
 using LoginSystem.Utilizador.API.Data.Repository;
 using LoginSystem.Utilizador.API.Models;
+using LoginSystem.Utilizador.API.Services;
 using MediatR;
 
 namespace LoginSystem.Utilizador.API.Configurations
@@ -20,6 +21,8 @@ namespace LoginSystem.Utilizador.API.Configurations
             // Utilizador
             builder.Services.AddScoped<IUtilizadorRepository, UtilizadorRepository>();
             builder.Services.AddScoped<ClienteDbContext>();
+
+            builder.Services.AddHostedService<RegistoUtilizadorIntegrationHandler>();
         }
     }
 }

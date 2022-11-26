@@ -4,14 +4,14 @@
     "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj": {
+    "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\building blocks\\LoginSystem.Core\\LoginSystem.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
-        "projectName": "LoginSystem.Identidade.API",
-        "projectPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
+        "projectUniqueName": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\building blocks\\LoginSystem.Core\\LoginSystem.Core.csproj",
+        "projectName": "LoginSystem.Core",
+        "projectPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\building blocks\\LoginSystem.Core\\LoginSystem.Core.csproj",
         "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\obj\\",
+        "outputPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\building blocks\\LoginSystem.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,87 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
+        "projectName": "LoginSystem.Identidade.API",
+        "projectPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\LoginSystem.Identidade.API.csproj",
+        "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\services\\LoginSystem.Identidade.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\building blocks\\LoginSystem.Core\\LoginSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\diogo\\Desktop\\Labs\\Git Projects\\LoginSystem\\Authentication-System\\src\\building blocks\\LoginSystem.Core\\LoginSystem.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
+            "EasyNetQ.Serialization.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.10, )"

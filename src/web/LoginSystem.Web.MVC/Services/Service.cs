@@ -1,9 +1,6 @@
-﻿using LoginSystem.Web.MVC.Models;
-using System.Text.Json;
+﻿using LoginSystem.Web.MVC.Extensions;
 using System.Text;
-using System.Reflection.Metadata;
-using System.Security.Cryptography.Xml;
-using LoginSystem.Web.MVC.Extensions;
+using System.Text.Json;
 
 namespace LoginSystem.Web.MVC.Services
 {
